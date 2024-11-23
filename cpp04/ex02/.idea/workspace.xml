@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="ex02" targetName="animalpark" />
+      <config projectName="ex02" targetName="all" />
+      <config projectName="ex02" targetName="fclean" />
+      <config projectName="ex02" targetName="re" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f304808e-b77f-4871-9043-0ee42276152f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.objs/AAnimal.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.objs/Brain.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.objs/Cat.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.objs/Dog.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.objs/WrongAnimal.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.objs/WrongCat.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.objs/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/animalpark" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/AAnimal.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/Brain.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/Cat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/Dog.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/WrongAnimal.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/WrongCat.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/AAnimal.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/Brain.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/Cat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/Dog.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/WrongAnimal.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/WrongCat.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/srcs/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp00/ex00/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../cpp00/ex00/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp00/ex00/megaphone2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cpp00/ex00/megaphone2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp00/ex01/contact.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cpp00/ex01/contact.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp00/ex01/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cpp00/ex01/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp00/ex01/phonebook.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cpp00/ex01/phonebook.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp00/ex01/phonebook.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cpp00/ex01/phonebook.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp01/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp01/Zombie.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp01/Zombie.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp01/ex02/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../cpp01/ex02/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp01/ex02/srcs/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cpp01/ex02/srcs/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp01/ex05/includes/Harl.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../cpp01/ex05/includes/Harl.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp01/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp01/newZombie.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cpp01/newZombie.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/cpp04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/cpp04.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MakefileLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="ex02" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="ex02" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="$PROJECT_DIR$/srcs/Dog.cpp" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.4" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2jNdNIHKIqekTGXhDpIWIImX0OT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/jidoil/Documents/42/cpp00-04/cpp04/ex02"
+  }
+}]]></component>
+  <component name="RunManager" selected="Native Application.all">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="all" CONFIG_NAME="all" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="animalpark" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="animalpark" CONFIG_NAME="animalpark" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fclean" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="fclean" CONFIG_NAME="fclean" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="re" type="CLionNativeAppRunConfigurationType" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="re" CONFIG_NAME="re" version="1">
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Native Application.all" />
+      <item itemvalue="Native Application.fclean" />
+      <item itemvalue="Native Application.re" />
+      <item itemvalue="Native Application.animalpark" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f304808e-b77f-4871-9043-0ee42276152f" name="Changes" comment="" />
+      <created>1721231426814</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721231426814</updated>
+      <workItem from="1721231427857" duration="306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
