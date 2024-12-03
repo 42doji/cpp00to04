@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include <sstream>
 #include "Phonebook.hpp"
 
 PhoneBook::PhoneBook()
@@ -23,26 +24,42 @@ void PhoneBook::add_contact(Contact contact)
 		this->contact_count++;
 	}
 	else
-	{
-		for (int i = 0; i < 7; i++)
-			this->contacts[i] = this->contacts[i + 1];
-		this->contacts[7] = contact;
-	}
+        this->contacts[0] = contact;
+}
+
+
+std::string truncate(const std::string& str) {
+    if (str.length() > 10)
+        return str.substr(0, 9) + ".";
+    return str;
+}
+
+void PhoneBook::print_contact()
+{
+    std::cout << "     index|first name| last name|  nickname" << std::endl;
+    for (int i = 0; i < this->contact_count; i++)
+    {
+        std::cout << std::setw(10) << i << "|";
+        std::cout << std::setw(10) << truncate(this->contacts[i].get_first_name()) << "|";
+        std::cout << std::setw(10) << truncate(this->contacts[i].get_last_name()) << "|";
+        std::cout << std::setw(10) << truncate(this->contacts[i].get_nickname()) << std::endl;
+    }
 }
 
 void PhoneBook::search_contact()
 {
 	std::string index;
-	std::cout << "     index|first name| last name|  nickname" << std::endl;
-	for (int i = 0; i < this->contact_count; i++)
-	{
-		std::cout << std::setw(10) << i << "|";
-		std::cout << std::setw(10) << this->contacts[i].get_first_name() << "|";
-		std::cout << std::setw(10) << this->contacts[i].get_last_name() << "|";
-		std::cout << std::setw(10) << this->contacts[i].get_nickname() << std::endl;
-	}
+	print_contact();
 	std::cout << "Enter index: ";
 	std::cin >> index;
+
+    int idx = 0;
+    idx = index[0] - '0';
+    if (idx >= this->contact_count)
+	{
+		std::cout << "Invalid index" << std::endl;
+		return;
+	}
 	if (index.length() == 1 && index[0] >= '0' && index[0] <= '7')
 	{
 		int i = index[0] - '0';
@@ -54,22 +71,4 @@ void PhoneBook::search_contact()
 	}
 	else
 		std::cout << "Invalid index" << std::endl;
-}
-
-void PhoneBook::print_contact()
-{
-	std::string first_name;
-	std::string last_name;
-	std::string nickname;
-	std::string phone_number;
-	std::string darkest_secret;
-
-	std::cout << "     index|first name| last name|  nickname" << std::endl;
-	for (int i = 0; i < this->contact_count; i++)
-	{
-		std::cout << std::setw(10) << i << "|";
-		std::cout << std::setw(10) << this->contacts[i].get_first_name() << "|";
-		std::cout << std::setw(10) << this->contacts[i].get_last_name() << "|";
-		std::cout << std::setw(10) << this->contacts[i].get_nickname() << std::endl;
-	}
 }
