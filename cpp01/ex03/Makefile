@@ -1,5 +1,5 @@
 NAME		=		attack
-CXX			=		clang++
+CXX			=		c++
 CXXFLAGS	=		-Wall -Wextra -Werror -std=c++98
 RM			=		rm -rf
 SRCS_DIR	=	    srcs
@@ -14,14 +14,12 @@ INCS		=		$(INCS_DIR)/Weapon.hpp \
 					$(INCS_DIR)/HumanA.hpp \
 					$(INCS_DIR)/HumanB.hpp
 
-# colors
 GREEN		=		"\033[0;32m"
 WHITE		=		"\033[0;37m"
 ORANGE		=		"\033[0;33m"
 RED			=		"\033[0;31m"
 NC			=		"\033[0m"
 
-# debug
 DEBUG		=		0
 ifeq ($(DEBUG), 1)
 	CXXFLAGS	+= -g3 -fsanitize=address
